@@ -78,14 +78,32 @@ a:hover {
 }
 
 .affiliations {
-  margin-top: 16px;
   display: flex;
-  gap: 24px;
+  gap: 28px;
+  margin-top: 30px;
+  align-items: center;
 }
 
-.logo {
-  height: 70px;
-  filter: drop-shadow(0 6px 18px rgba(0,0,0,0.4));
+.logo-card {
+  background: rgba(255, 255, 255, 0.92);
+  padding: 16px 22px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.45);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.logo-card img {
+  height: 80px;
+  max-width: 240px;
+  object-fit: contain;
+}
+
+.logo-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px rgba(0,0,0,0.6);
 }
 
 hr {
