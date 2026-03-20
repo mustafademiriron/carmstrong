@@ -326,6 +326,17 @@ h3 {
   margin-top: 14px;
 }
 
+.publication-note {
+  margin-top: 14px;
+  padding: 0 8px;
+  color: var(--muted);
+}
+
+.publication-note a {
+  color: var(--accent-deep);
+  font-weight: 700;
+}
+
 .contact-panel {
   display: flex;
   align-items: center;
